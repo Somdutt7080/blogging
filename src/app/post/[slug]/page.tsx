@@ -1,3 +1,6 @@
+import PostContent from "@/components/post/post-content";
+import { auth } from "@/lib/auth";
+import { getPostBySlug } from "@/lib/db/queries";
 import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 

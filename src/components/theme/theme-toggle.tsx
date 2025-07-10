@@ -2,9 +2,9 @@
 
 import { Moon, Sun } from "lucide-react";
 import { Button } from "../ui/button";
-import { useThemeStore } from "@/store/theme-store";
 import { useTheme } from "next-themes";
 import { useEffect } from "react";
+import { useThemeStore } from "@/store/theme-store";
 
 export default function ThemeToggle() {
   const { isDarkMode, toggleTheme } = useThemeStore();
